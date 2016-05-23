@@ -1,0 +1,77 @@
+/*
+background-color: rgb(52, 152, 219);  76%
+background-color: rgb(52, 73, 94);    45%
+*/
+.peter-river {
+  background-color: #3498db;
+}
+
+.wet-asphalt {
+  background-color: #34495e;
+}
+
+.color-1 {
+  background-color: #85c4ed;
+}
+
+.color-2 {
+  background-color: #58ade3;
+}
+
+.color-3 {
+  background-color: #0f85d1;
+}
+
+.color-4 {
+  background-color: #0665a2;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+}
+
+footer {
+  height: 34px;
+  clear: both;
+}
+
+@media (orientation: portrait) {
+  section {
+    width: 100%;
+  }
+
+  section > div:first-of-type {
+    height: 110px;
+  }
+  div > div {
+    height: 110px;
+  }
+}
+
+@media (orientation: landscape) {
+  section {
+    width: 50%;
+  }
+  section:first-of-type {
+    float: left;
+  }
+  section:last-of-type {
+    float: right;
+  }
+
+  section > div:first-of-type {
+    height: 144px;
+  }
+  div > div {
+    width: 50%;
+    height: 199px;
+  }
+  div > div:first-of-type {
+    float: left;
+  }
+  div > div:last-of-type {
+    float: right;
+  }
+
+}
