@@ -1,26 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Weather</title>
-    <link rel="stylesheet" href="/css/master.css">
-  </head>
-  <body class="color-4">
-    <section>
-      <div class="time peter-river">FOO</div>
-      <div>
-        <div class="news color-1">FOO</div>
-        <div class="tasks color-2">FOO</div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather</title>
+  <link rel="stylesheet" href="/css/master.css">
+  <script src="js/watch.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+<body class="color-4" onload="getTime()">
+  <section>
+    <div id="time" class="time peter-river">FOO</div>
+    <div>
+      <div class="news color-1">
+        <ul>
+          <li>
+            <h3>Title 1</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+          </li>
+          <li>
+            <h3>Title 2</h3>
+            <p>
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            </p>
+          </li>
+          <li>
+            <h3>Title 3</h3>
+            <p>
+              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </li>
+          <li>
+            <h3>Title 4</h3>
+            <p>
+              It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+          </li>
+        </ul>
       </div>
-    </section>
-    <section>
-      <div class="weather color-3">FOO</div>
-      <div>
-        <div class="travel color-1">FOO</div>
-        <div class="stock color-4">FOO</div>
+      <div class="tasks color-2">
+        <ul>
+          <li>
+            <h4>8:00 am</h4>
+            <p>Wake up, fall out of bed</p>
+          </li>
+          <li>
+            <h4>9:00 am</h4>
+            <p>Run the comb across your head</p>
+          </li>
+          <li>
+            <h4>10:00 am</h4>
+            <p>Find your way downstairs and drink a cup</p>
+          </li>
+          <li>
+            <h4>11:00 am</h4>
+            <p>Looking up, notice you are late</p>
+          </li>
+          <li>
+            <h4>12:00 am</h4>
+            <p>Find your coat and grab your hat</p>
+          </li>
+        </ul>
       </div>
-    </section>
-    <footer class="wet-asphalt">FOOTER</footer>
-  </body>
+    </div>
+  </section>
+  <section>
+    <div class="weather color-3">FOO</div>
+    <div>
+      <div class="travel color-1">FOO</div>
+      <div class="stock color-4">FOO</div>
+    </div>
+  </section>
+  <footer class="wet-asphalt">FOOTER</footer>
+</body>
 </html>

@@ -29,12 +29,26 @@ background-color: rgb(52, 73, 94);    45%
 body {
   margin: 0;
   color: #fff;
+  font-family: 'Lato', sans-serif;
 }
 
 footer {
   height: 34px;
   clear: both;
 }
+
+/*button {
+  padding: 13px 21px;
+  margin: 8% auto;
+  border-radius: 5px;
+  border-color: #357ebd;
+  color: #fff;
+  background-color: #1abc9c;
+  border: none;
+  width: 75%;
+  cursor: pointer;
+  font-size: 1.1rem;
+}*/
 
 @media (orientation: portrait) {
   section {
