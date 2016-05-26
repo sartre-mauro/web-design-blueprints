@@ -13,10 +13,10 @@ function getTime() {
   var y = today.getFullYear();
 
   document.getElementById('time').innerHTML =
-      "<h1>" + h + " : " + m + " : " + s + "</h1>"
-      + " <span>" + d + " ,</span>"
-      + " <span>" + mo + " </span>"
-      + " <span>" + y + "</span>";
+      '<h1 class="large">' + h + ' : ' + m + " : " + s + '</h1>'
+      + ' <span class="dark">' + d + ' ,</span>'
+      + ' <span class="dark">' + mo + ' </span>'
+      + ' <span class="dark">' + y + '</span>';
 
   var t = setTimeout(function () {
     getTime()
